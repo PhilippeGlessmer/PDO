@@ -1,6 +1,9 @@
-<?php ob_start() ?>
+<?php
+ob_start();
+?>
 
-    Contenu de la pag daccueil
+    Ici la page d'accueil
+
 <?php
 $content = ob_get_clean();
 $titre = "Bibliothèque MGA";
