@@ -5,11 +5,14 @@ class Livre{
     private $nbPages;
     private $image;
 
+    public static $livres;
+
     public function __construct($id,$titre,$nbPages,$image){
         $this->id = $id;
         $this->titre = $titre;
         $this->nbPages = $nbPages;
         $this->image = $image;
+        self::$livres[] = $this;
     }
 
     public function getId(){return $this->id;}
