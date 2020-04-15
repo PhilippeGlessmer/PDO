@@ -18,16 +18,16 @@ try{
                 if(empty($url[1])){
                     $livreController->afficherLivres();
                 } else if($url[1] === "l") {
-                    echo $livreController->afficherLivre($url[2]);
+                    $livreController->afficherLivre($url[2]);
                 } else if($url[1] === "a") {
                     $livreController->ajoutLivre();
-                } else if($url[1] === "av") {
-                    echo 'Validation d\'un Livre';
-                }else if($url[1] === "m") {
+                } else if($url[1] === "m") {
                     echo "modifier un livre";
                 } else if($url[1] === "s") {
                     echo "suppression d'un livre";
-                } else {
+                } else if($url[1] === "av") {
+                    $livreController->ajoutLivreValidation();
+                }else {
                     throw new Exception("La page n'existe pas");
                 }
             break;
