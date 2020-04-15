@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995c3338-f645-4c43-89f5-e225edd655e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/LivresController.controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Livre.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LivreManager.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model.class.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/livres.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/livres.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586896326099</updated>
       <workItem from="1586896341819" duration="5765000" />
-      <workItem from="1586935138197" duration="5456000" />
+      <workItem from="1586935138197" duration="6822000" />
     </task>
     <servers />
   </component>
