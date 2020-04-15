@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 define("URL", str_replace("index.php","",(isset($_SERVER['HTTPS']) ? "https" : "http").
 "://$_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]"));
 
@@ -19,6 +21,7 @@ try{
                     $livreController->afficherLivres();
                 } else if($url[1] === "l") {
                     $livreController->afficherLivre($url[2]);
+
                 } else if($url[1] === "a") {
                     $livreController->ajoutLivre();
                 } else if($url[1] === "m") {
@@ -39,5 +42,6 @@ try{
     }
 }
 catch(Exception $e){
-    echo $e->getMessage();
+    $msg = $e->getMessage();
+    require 'views/error.view.php';
 }
